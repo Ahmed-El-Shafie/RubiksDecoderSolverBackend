@@ -1,1 +1,1 @@
-web: java -jar build/libs/RubiksDecoderSolver.jar
+web: java -jar build/libs/RubiksDecoderSolver.jar --server.port=$PORT
