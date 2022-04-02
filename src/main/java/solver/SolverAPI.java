@@ -15,7 +15,7 @@ import moves.Move;
 @RestController
 public class SolverAPI {
 	
-	private static final String corsOrigin = "http://www.rubiksdecodersolver.com/";
+	private static final String corsOrigin = "https://www.rubiksdecodersolver.com/";
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SolverAPI.class, args);
